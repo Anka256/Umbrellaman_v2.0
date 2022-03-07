@@ -4,7 +4,7 @@
 	
 y += fall + accelerate;
 
-if (keyboard_check(vk_space))
+if (keyboard_check(vk_space)) || (mouse_check_button(mb_left))
 {
 	fall = -7;
 	accelerate -= 0.3;
@@ -59,4 +59,3 @@ if (counter = 0)
 }
 	
 	#endregion
-	
