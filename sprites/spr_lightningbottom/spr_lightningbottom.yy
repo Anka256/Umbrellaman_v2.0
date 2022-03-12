@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Game Sprites",
+    "path": "folders/Sprites/Game Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_lightningbottom",

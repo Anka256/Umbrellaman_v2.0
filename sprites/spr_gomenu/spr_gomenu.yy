@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Menu Sprites",
+    "path": "folders/Sprites/Menu Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gomenu",
