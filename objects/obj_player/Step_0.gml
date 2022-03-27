@@ -4,17 +4,17 @@
 	
 y += fall + accelerate;
 up = (keyboard_check(vk_space)) || (mouse_check_button(mb_left))
-
+show_debug_message((fall+accelerate)*-1);
 if (up)
 {
 	fall = -7;
-	accelerate -= 0.3;
-	show_debug_message(fall+accelerate);
+	accelerate -= 0.35;
+	
 }
 else
 {
 accelerate = 0;
-fall += 0.6;
+fall += 0.65;
 }
 
 	/// şemsiye animasyonu
